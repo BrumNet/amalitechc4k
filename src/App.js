@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import Login from './pages/login';
+import 'rsuite/dist/rsuite.min.css'
+import {createBrowserRouter} from "react-router-dom";
+
 import './App.css';
+import Dashboard from './pages/dashboard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Login/>,
+    errorElement: <center>Page Not Found</center>//error page
+  },{
+    path: "/dashboard",
+    element: <Dashboard/>,
+    errorElement: <center>Page Not Found</center>//error page
+  },
+], {basename: "./amalitechc4k"})
 
-export default App;
+
+export default router;
