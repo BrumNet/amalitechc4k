@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Dashboard/>,
     errorElement: <center>Page Not Found</center>//error page
   },
-], {basename: "./amalitechc4k"})
+], {basename: "/amalitechc4k"})
 
 
 export default router;
