@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amalitechc4k/static/css/main.dd57b927.css",
+    "main.js": "/amalitechc4k/static/js/main.b353692e.js",
+    "static/js/787.8d6cf85e.chunk.js": "/amalitechc4k/static/js/787.8d6cf85e.chunk.js",
+    "static/media/AmaliTech.webp": "/amalitechc4k/static/media/AmaliTech.98c4dcdf3390e3501038.webp",
+    "index.html": "/amalitechc4k/index.html",
+    "main.dd57b927.css.map": "/amalitechc4k/static/css/main.dd57b927.css.map",
+    "main.b353692e.js.map": "/amalitechc4k/static/js/main.b353692e.js.map",
+    "787.8d6cf85e.chunk.js.map": "/amalitechc4k/static/js/787.8d6cf85e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd57b927.css",
+    "static/js/main.b353692e.js"
+  ]
+}
